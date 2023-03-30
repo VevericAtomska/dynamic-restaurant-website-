@@ -1,0 +1,40 @@
+#overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+}
+
+.modal {
+    padding: 2rem;
+    margin: 0 auto;
+}
+.modal > img {
+    width: 40rem;
+}
+
+.zatvori {
+    position: absolute;
+    color: white;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.galerija {
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.galerija > img {
+    width: 140px;
+}
